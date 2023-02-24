@@ -1,0 +1,119 @@
+.container {
+    background-color: #0E141B;
+}
+
+.contactContainer {
+    width: 60%;
+    display: flex;
+    margin-bottom: 70px;
+    flex-direction: column;
+}
+
+.contactContainer span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    letter-spacing: -0.4px;
+    color: #E5E5E5;
+    margin-top: 50px;
+    padding-left: 70px;
+}
+
+.contactContainer p {
+    padding-top: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    padding-left: 70px;
+    color: #FFFFFF;
+}
+
+.personalContactContainer {
+    height: 230px;
+    display: flex;
+}
+
+.contact {
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+
+}
+
+.contact:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.contactfield {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactfield span:nth-child(1) {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.contactfield span:nth-child(2) {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    text-align: center;
+
+}
+
+.contactfield span:nth-child(3) {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.foooterContainer {
+    height: 50px;
+    background-color: #f2f2f2;
+    display: flex;
+}
+
+.socialMediaIcon {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.design {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.design span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    background: linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}

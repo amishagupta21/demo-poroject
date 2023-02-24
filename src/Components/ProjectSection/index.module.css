@@ -1,0 +1,96 @@
+.container {
+    background-color:#0E141B;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.title {
+    /* margin-top: 20%; */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 26px;
+    color: #E5E5E5;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    /* text-align: center; */
+    color: #FFFFFF;
+    /* margin-bottom: 50px; */
+
+}
+
+.projectContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project {
+    flex-basis: 80px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.projectImage img{
+    height: 150px;
+    width: 300px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.aboutProjectImage {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 10px;
+}
+
+.aboutProjectImage h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+    color: #000000;
+}
+
+.aboutProjectImage h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #42446E;
+}
+.aboutProjectImage h2 span{
+    font-weight: 600;
+}
+.projectLink{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    color: #1890ff;
+    font-weight: 500;
+    font-size: 14px;
+}
+.liveLink{
+    display: flex;
+    gap: 5px;
+    
+}
+.githubLink{
+    display: flex;
+    gap: 5px;
+}
